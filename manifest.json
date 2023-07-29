@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "BlockOn",
   "version": "1.0",
-  "description": "Choose which network(s) the browser can load from",
+  "description": "Choose which network(s) the browser can load from.",
   "icons": {
     "32": "icon32.png",
     "64": "icon64.png",
