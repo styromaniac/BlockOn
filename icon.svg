@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -25 1777 1777">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(67 0 0)">
+      <stop offset="0%" style="stop-color:#f88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f00;stop-opacity:1" />
+    </linearGradient>
+    <filter id="dropshadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="16" />
+      <feOffset dx="5.196" dy="9" result="offsetblur" />
+      <feFlood flood-color="#000" flood-opacity="1" />
+      <feComposite in2="offsetblur" operator="in" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M1531 385v957l-667 385-667-385V385L864 0zm-190 110L864 220 387 495v737l477 275 477-275z" fill="url(#gradient)" filter="url(#dropshadow)" />
+  <path d="M863 360l355 205v220l-137 79 137 78v220l-355 205-356-205V565zm0 597V770l153-88-154-89-153 89v363l154 89 153-89z" fill="url(#gradient)" filter="url(#dropshadow)" />
+</svg>

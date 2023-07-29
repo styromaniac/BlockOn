@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "BlockOn",
+  "version": "1.0",
+  "description": "Choose which network you can browse",
+  "icons": {
+    "32": "icon32.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icon32.png",
+    "default_title": "BlockOn",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
